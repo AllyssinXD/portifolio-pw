@@ -47,7 +47,7 @@ function App() {
 
   useEffect(() => {
     gsap.to(sliderRef.current, {
-      marginLeft: selectedPage > 0 ? selectedPage * -900 : 0,
+      marginLeft: selectedPage > 0 ? selectedPage * -840 : 0,
       duration: 1,
     });
   }, [selectedPage]);
@@ -109,9 +109,9 @@ function App() {
               </div>
             </div>
             <div ref={sliderRef} className="flex h-full">
-              {pages.map((page, i) => {
+              {pages.map((page) => {
                 return (
-                  <div className={`block mr-${i * 10} w-220`}>
+                  <div className={`block mr-[40px] w-[800px]`}>
                     {page.component}
                   </div>
                 );

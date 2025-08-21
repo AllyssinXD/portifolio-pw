@@ -20,7 +20,7 @@ function Projects() {
   ];
 
   return (
-    <div className="flex flex-col pt-10 w-full h-full pr-20">
+    <div className="flex flex-col pt-10 w-full h-full pr-10">
       <h1 className="text-[3rem]">Algumas coisas que já fiz </h1>
       <div className="flex mt-10 space-x-10 overflow-auto">
         {projects.map((project) => {
@@ -31,7 +31,9 @@ function Projects() {
                 className="group-hover:scale-120 h-full object-cover transition"
               />
               <div className="absolute -bottom-10 left-0 group-hover:-translate-y-10 transition">
-                <CircularButton img="github-icon.png" />
+                <a href={project.link} target="_blank">
+                  <CircularButton img="github-icon.png" />
+                </a>
               </div>
             </div>
           );

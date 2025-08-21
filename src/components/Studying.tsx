@@ -54,7 +54,7 @@ function Studying() {
   ];
 
   return (
-    <div className="flex flex-col pt-10 h-full px-10 pr-20">
+    <div className="flex flex-col pt-10 h-full">
       <h1 className="text-[3rem]">Continuo estudando...</h1>
       <p className="font-light">
         Minha jornada de aprenzidado nunca vai parar!{" "}
