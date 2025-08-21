@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lexend-regular {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+  font-family: "Lexend", sans-serif;
+}
+
+@theme {
+  --color-background: #fff;
+  --color-complementary: #dbe6e6;
+  --color-foreground: #000;
+  --color-primary: #20c47f;
+}
+
+.dark {
+  --color-background: #0b091a;
+  --color-complementary: #04030a;
+  --color-foreground: #e6e6e6;
+}
+
+.light {
+  --color-background: #fff;
+  --color-complementary: rgb(231, 231, 231);
+  --color-foreground: #000;
+  --color-primary: #087542;
+}
+
+.cool-gradient{
+  background: linear-gradient(50deg, #20c47f, #087542);
+}
