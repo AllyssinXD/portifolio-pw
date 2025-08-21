@@ -4,12 +4,7 @@ import Home from "./components/Home";
 import useAppearance from "./hooks/useAppearance";
 import AboutMe from "./components/AboutMeSection";
 import gsap from "gsap";
-import {
-  useLocation,
-  useNavigate,
-  useParams,
-  useSearchParams,
-} from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Projects from "./components/Projects";
 import Studying from "./components/Studying";
 
