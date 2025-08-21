@@ -4,7 +4,8 @@ function Studying() {
       dateLabel: "2025 - junho",
       title: "Desenvolvimento de Sistemas",
       subtitle: "Curso ETEC - Primeiro semestre",
-      description: "Curso técnico",
+      description:
+        "Primeiro semestre concluído - Introdução a banco de dados, PW, TPA e APS",
     },
     {
       dateLabel: "2025 - fevereiro",
